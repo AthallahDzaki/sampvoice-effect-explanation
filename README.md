@@ -1,1 +1,7 @@
-# sampvoice-effect-explanation
+# Sampvoice Effect Explanation
+
+
+| Nama Fungsi | Apa Itu? | Bagaimana Cara Kerjanya? | Parameter |
+|--|--|--|--|
+| SvEffectCreateChorus | Chorus digunakan untuk membuat satu instrumen terdengan menjadi lebih dari satu instrumen | Bekerja dengan menggandakan suara aslinya kemudian menempatkannya sedikit keluar dari waktu dan tune  | SV_INT:priority = Prioritas. <br><br> SV_FLOAT:wetdrymix = Menyetel rasio sinyal basah (diproses) ke sinyal kering (belum diproses).<br><br> SV_FLOAT:depth = Menetapkan persentase waktu tunda yang dimodulasi oleh osilator frekuensi rendah, dalam seperseratus poin persentase.<br><br> SV_FLOAT:feedback = Mengatur persentase sinyal output untuk memberi umpan balik ke input efek.<br><br> SV_FLOAT:frequency = Mengatur frekuensi LFO.<br><br> SV_FLOAT:delay = Mengatur jumlah milidetik input tertunda sebelum diputar ulang.<br><br> SV_UINT:phase = Mengatur perbedaan fase antara LFO kiri dan kanan|
+| SvEffectCreateCompressor | Compressor adalah effek yang dipakai untuk mengontrol dinamika di dalam audio | Mengurangi atau menambahkan dynamic range yang berlebihan/kurang | SV_INT:priority = Prioritas. <br><br> SV_FLOAT:gain = Mengatur penguatan output sinyal setelah kompresi.<br><br> SV_FLOAT:attack = Mengatur waktu sebelum kompresi mencapai nilai penuhnya.<br><br> SV_FLOAT:release = Mengatur kecepatan di mana kompresi dihentikan setelah input turun di bawah Ambang Batas.<br><br> SV_FLOAT:threshold = Menetapkan titik di mana kompresi dimulai.<br><br> SV_FLOAT:ratio = Mengatur rasio kompresi.<br><br> SV_FLOAT:predelay = mengatur waktu setelah Ambang tercapai sebelum fase serangan dimulai, dalam milidetik|
