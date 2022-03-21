@@ -17,4 +17,4 @@
 
 | Fungsi | Parameter |
 | --     | --        |
-| SvEffectCreateChorus | priority = 1 - 65535 <br> wetdrymix = 0.0 - 100.0 <br> depth = 0.0 - 100.0 <br> feedback = -99.0 - 99.0 <br><br> frequency = 0.0 - 10.0 <br><br> waveform = 0 - 1 <br><br> delay = 0.0 - 20.0 <br><br> phase = 0 - 4 ( 0, 1, 2, 3, 4)|
+| SvEffectCreateChorus | priority = 1 - 65535 <br> wetdrymix = 0.0 - 100.0 <br> depth = 0.0 - 100.0 <br> feedback = -99.0 - 99.0 <br> frequency = 0.0 - 10.0 <br> waveform = 0 - 1 <br> delay = 0.0 - 20.0 <br> phase = 0 - 4 ( 0, 1, 2, 3, 4)|
